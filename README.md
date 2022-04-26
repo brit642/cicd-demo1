@@ -66,4 +66,4 @@ gcloud projects add-iam-policy-binding ${PROJECT_ID} \
 
 ## 6. Update GKE and CR yaml files to set your `$PROJECT_ID`
 
-## 7. For Cloud Run demo, please follow the pre-requisite steps of [this doc](https://docs.google.com/document/d/1DFunajJsevYhoVg6x3xC8YInzGLkRTLk_TxfpY_esQk/edit#) to get a config controller cluster
+## 7. For Cloud Run demo, please follow the pre-requisite steps,  of [this doc](https://docs.google.com/document/d/1DFunajJsevYhoVg6x3xC8YInzGLkRTLk_TxfpY_esQk/edit#) to get a config controller cluster
