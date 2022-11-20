@@ -6,7 +6,7 @@ profiles:
 - name: dev
   manifests:
     rawYaml:
-    - 1-run-dev-deploy.yaml
+    - 1-run-qa-deploy.yaml
 - name: prod
   manifests:
     rawYaml:

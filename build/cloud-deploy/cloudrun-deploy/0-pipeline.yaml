@@ -5,8 +5,8 @@ metadata:
 description: main application pipeline
 serialPipeline:
  stages:
- - targetId: app-dev
-   profiles: [dev]
+ - targetId: app-qa
+   profiles: [qa]
  - targetId: app-prod
    profiles: [prod]
 ---
@@ -14,8 +14,8 @@ serialPipeline:
 apiVersion: deploy.cloud.google.com/v1
 kind: Target
 metadata:
- name: app-dev
-description: Cloud Run development service
+ name: app-qa
+description: Cloud Run qa service
 run:
  location: projects/aflalo-cicd-demo/locations/europe-west1
 ---
