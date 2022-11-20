@@ -3,7 +3,7 @@ kind: Config
 metadata: 
   name: deploy-run
 profiles:
-- name: dev
+- name: qa
   manifests:
     rawYaml:
     - 1-run-qa-deploy.yaml
