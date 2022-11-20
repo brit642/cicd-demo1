@@ -1,0 +1,9 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: app-qa
+spec:
+  template:
+    spec:
+      containers:
+      - image: run-image
