@@ -23,7 +23,7 @@ metadata:
 description: GKE development environment
 gke:
  # You need to substitute your project id here
- cluster: projects/aflalo-cicd-demo/locations/europe-west1/clusters/k8s
+ cluster: projects/appmodworkshop/locations/europe-west1/clusters/k8s
 ---
 
 apiVersion: deploy.cloud.google.com/v1
@@ -34,7 +34,7 @@ metadata:
 description: GKE staging environment
 gke:
  # You need to substitute your project id here
- cluster: projects/aflalo-cicd-demo/locations/europe-west1/clusters/k8s
+ cluster: projects/appmodworkshop/locations/europe-west1/clusters/k8s
 ---
 
 apiVersion: deploy.cloud.google.com/v1
@@ -45,4 +45,4 @@ metadata:
 description: GKE production environment
 gke:
  # You need to substitute your project id here
- cluster: projects/aflalo-cicd-demo/locations/europe-west1/clusters/k8s
+ cluster: projects/appmodworkshop/locations/europe-west1/clusters/k8s
