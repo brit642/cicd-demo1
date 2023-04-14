@@ -9,7 +9,7 @@ spec:
   ingress: INGRESS_TRAFFIC_ALL
   location: europe-west1
   projectRef: 
-    external: projects/aflalo-cicd-demo
+    external: projects/appmodworkshop
   template:      
     containers:
       - env:
