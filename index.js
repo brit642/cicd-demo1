@@ -3,7 +3,7 @@ const app = express();
 
 app.get('/', (req, res) => {
   const name = process.env.NAME || 'Infomil';
-  res.send(`Hello ${name} !`);
+  res.send(`Helloooo ${name} !`);
 	
 });
 
